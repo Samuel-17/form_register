@@ -1,6 +1,6 @@
 //Select input box
-const box1 = document.querySelectorAll('input')[3];
-const box2 = document.querySelectorAll('input')[4];
+const box1 = document.getElementById('boxMasculine');
+const box2 = document.getElementById('boxFeminine');
 
 // toggle function element 1
 box1.onclick = function(){
