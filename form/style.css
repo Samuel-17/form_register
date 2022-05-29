@@ -1,0 +1,212 @@
+*{
+    border:0;
+    padding: 0;
+    margin:0;
+}
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(71, 1, 71) 20%, rgb(57, 0, 75) 30%, rgb(1, 1, 48) 90%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://w0.peakpx.com/wallpaper/904/535/HD-wallpaper-gradient-forms-2-abstract-gradient-kor4-rts-best-colors-cool-forms-liquid-simple-texture.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+form{
+    width: 25%;
+    height:80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* container div*/
+#content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color:#ffff;
+    border-radius:4px;
+    text-align: center;
+    
+}
+
+/* text data box */
+#content #fillFild .input{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    color:#999;
+}
+
+#content #fillFild .input{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    color:#999;
+
+}
+
+/* config Icons position */
+#content #fillFild .input span{
+    margin-top: 10px;
+}
+
+/* 
+#fillFild::before{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    background-image: linear-gradient(45deg,
+    #f09433 0%, #e6683c 25%,
+    #dc2743 50%, #6902be 75%,
+    #bc1888 100%
+    );
+    border-radius: inherit;
+    z-index: -1;
+} */
+
+
+/* input class */
+#fillFild .fild{
+    display:block;
+    width: 85%;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 4px;
+    padding:5px;
+    height: 30px;
+}
+
+
+#content #fillFild .input span{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#content #fillFild p{
+    text-align: right;
+    color:rgba(0, 0, 0, 0.836);
+    margin-top: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+
+#selectSex{
+    width: 80%;
+    display: flex;
+    margin-top: 10px;
+    padding:10px;
+    justify-content: left;
+    
+}
+
+#selectSex input{
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#selectSex span{
+    margin-left: 10px;
+    font-size: 10pt;
+    font-weight: 450;
+}
+
+/* button submit */
+button{
+    width: 85%;
+    height:35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color:#fff;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,
+    #f09433 0%, #e6683c 25%,
+    #dc2743 50%, #6902be 75%,
+    #bc1888 100%
+    );
+    cursor: pointer;
+}
+
+button:hover{
+    height: 37px;
+    width: 87%;
+    transition: 0.1s;
+    
+}
+
+#content p{
+    margin-top: 20px;
+    color:rgba(0, 0, 0, 0.76);
+}
+
+#content #webOptions{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content .webEnters{
+    width: 45px;
+    height: 45px;
+    margin-left: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#content .webEnters:nth-child(1){
+    background: url('https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-3-1.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(59, 89, 152);
+
+}
+
+#content .webEnters:nth-child(2){
+    background: url('https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png');
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(0, 172, 240); */
+    
+}
+
+
+#content .webEnters:nth-child(3){
+    background-color: white;
+    background: url('https://icones.pro/wp-content/uploads/2021/02/google-icone-symbole-png-logo-rouge.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
